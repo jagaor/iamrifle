@@ -1,0 +1,652 @@
+{
+  "exported_at": "2025-03-15T10:30:00Z",
+  "users": [
+    {
+      "user_name": "alice.admin",
+      "user_id": "AIDAALICE1234567890AB",
+      "arn": "arn:aws:iam::123456789012:user/alice.admin",
+      "create_date": "2023-01-10T08:00:00Z",
+      "password_last_used": "2025-03-14T22:15:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/alice.admin",
+          "enable_date": "2023-01-10T08:05:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIAALICE0000000001",
+          "status": "Active",
+          "create_date": "2024-01-15T10:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/AdministratorAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "bob.developer",
+      "user_id": "AIDABOB1234567890CD",
+      "arn": "arn:aws:iam::123456789012:user/bob.developer",
+      "create_date": "2023-03-22T09:30:00Z",
+      "password_last_used": "2025-03-10T14:20:00Z",
+      "mfa_devices": [],
+      "access_keys": [
+        {
+          "access_key_id": "AKIABOB0000000000002",
+          "status": "Active",
+          "create_date": "2024-11-01T12:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/PowerUserAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "carol.analyst",
+      "user_id": "AIDACAROL1234567890EF",
+      "arn": "arn:aws:iam::123456789012:user/carol.analyst",
+      "create_date": "2022-07-01T11:00:00Z",
+      "password_last_used": "2025-02-28T09:45:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/carol.analyst",
+          "enable_date": "2022-07-01T11:10:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIACAROL0000000003",
+          "status": "Active",
+          "create_date": "2024-08-20T16:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/ReadOnlyAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "dave.ops",
+      "user_id": "AIDADAVE1234567890GH",
+      "arn": "arn:aws:iam::123456789012:user/dave.ops",
+      "create_date": "2021-11-05T07:15:00Z",
+      "password_last_used": "2025-03-01T18:30:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/dave.ops",
+          "enable_date": "2021-11-05T07:20:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIADAVE0000000004",
+          "status": "Active",
+          "create_date": "2024-06-10T08:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/AmazonS3FullAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "eve.contractor",
+      "user_id": "AIDAEVE1234567890IJ",
+      "arn": "arn:aws:iam::123456789012:user/eve.contractor",
+      "create_date": "2024-02-14T13:00:00Z",
+      "password_last_used": "2025-01-20T10:00:00Z",
+      "mfa_devices": [],
+      "access_keys": [
+        {
+          "access_key_id": "AKIAEVE000000000005",
+          "status": "Active",
+          "create_date": "2024-12-01T09:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "frank.ml",
+      "user_id": "AIDAFRANK1234567890KL",
+      "arn": "arn:aws:iam::123456789012:user/frank.ml",
+      "create_date": "2023-09-09T09:09:00Z",
+      "password_last_used": "2025-03-12T11:11:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/frank.ml",
+          "enable_date": "2023-09-09T09:15:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIAFRANK0000000006",
+          "status": "Active",
+          "create_date": "2024-10-05T14:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/AmazonSageMakerFullAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "grace.audit",
+      "user_id": "AIDAGRACE1234567890MN",
+      "arn": "arn:aws:iam::123456789012:user/grace.audit",
+      "create_date": "2022-12-01T10:00:00Z",
+      "password_last_used": "2025-03-13T08:00:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/grace.audit",
+          "enable_date": "2022-12-01T10:05:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIAGRACE0000000007",
+          "status": "Active",
+          "create_date": "2024-12-20T10:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/SecurityAudit"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "henry.backup",
+      "user_id": "AIDAHENRY1234567890OP",
+      "arn": "arn:aws:iam::123456789012:user/henry.backup",
+      "create_date": "2023-05-18T06:00:00Z",
+      "password_last_used": "2025-02-10T07:30:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/henry.backup",
+          "enable_date": "2023-05-18T06:10:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIAHENRY0000000008",
+          "status": "Active",
+          "create_date": "2024-09-15T12:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "ivy.intern",
+      "user_id": "AIDAIVY1234567890QR",
+      "arn": "arn:aws:iam::123456789012:user/ivy.intern",
+      "create_date": "2025-01-05T09:00:00Z",
+      "password_last_used": "2025-03-15T09:00:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/ivy.intern",
+          "enable_date": "2025-01-05T09:05:00Z"
+        }
+      ],
+      "access_keys": [],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/ReadOnlyAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "jack.ci",
+      "user_id": "AIDAJACK1234567890ST",
+      "arn": "arn:aws:iam::123456789012:user/jack.ci",
+      "create_date": "2021-08-20T05:00:00Z",
+      "password_last_used": null,
+      "mfa_devices": [],
+      "access_keys": [
+        {
+          "access_key_id": "AKIAJACK00000000009",
+          "status": "Active",
+          "create_date": "2024-01-01T00:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/AmazonEC2FullAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "karen.data",
+      "user_id": "AIDAKAREN1234567890UV",
+      "arn": "arn:aws:iam::123456789012:user/karen.data",
+      "create_date": "2023-04-11T14:00:00Z",
+      "password_last_used": "2025-03-09T16:00:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/karen.data",
+          "enable_date": "2023-04-11T14:05:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIAKAREN0000000010",
+          "status": "Active",
+          "create_date": "2024-11-20T08:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/AmazonRDSReadOnlyAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "leo.monitor",
+      "user_id": "AIDALEO1234567890WX",
+      "arn": "arn:aws:iam::123456789012:user/leo.monitor",
+      "create_date": "2022-10-30T12:00:00Z",
+      "password_last_used": "2025-03-11T13:00:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/leo.monitor",
+          "enable_date": "2022-10-30T12:10:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIALEO000000000011",
+          "status": "Active",
+          "create_date": "2024-12-10T10:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "mia.deploy",
+      "user_id": "AIDAMIA1234567890YZ",
+      "arn": "arn:aws:iam::123456789012:user/mia.deploy",
+      "create_date": "2023-06-15T07:00:00Z",
+      "password_last_used": "2025-03-14T06:00:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/mia.deploy",
+          "enable_date": "2023-06-15T07:05:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIAMIA000000000012",
+          "status": "Active",
+          "create_date": "2024-10-25T09:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/AmazonECS_FullAccess"
+      ],
+      "inline_policies": []
+    },
+    {
+      "user_name": "nina.support",
+      "user_id": "AIDANINA1234567890AB",
+      "arn": "arn:aws:iam::123456789012:user/nina.support",
+      "create_date": "2024-01-20T10:00:00Z",
+      "password_last_used": "2025-03-05T11:00:00Z",
+      "mfa_devices": [
+        {
+          "serial_number": "arn:aws:iam::123456789012:mfa/nina.support",
+          "enable_date": "2024-01-20T10:05:00Z"
+        }
+      ],
+      "access_keys": [
+        {
+          "access_key_id": "AKIANINA00000000013",
+          "status": "Active",
+          "create_date": "2024-12-05T14:00:00Z"
+        }
+      ],
+      "attached_policies": [
+        "arn:aws:iam::aws:policy/AmazonSESReadOnlyAccess"
+      ],
+      "inline_policies": []
+    }
+  ],
+  "policies": [
+    {
+      "policy_name": "AdminWildcard",
+      "policy_id": "ANPAADMINWILD123456",
+      "arn": "arn:aws:iam::123456789012:policy/AdminWildcard",
+      "create_date": "2023-02-01T09:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "FullAccess",
+          "effect": "Allow",
+          "action": ["*"],
+          "resource": ["*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "S3WildcardAction",
+      "policy_id": "ANPAS3WILDACTION1234",
+      "arn": "arn:aws:iam::123456789012:policy/S3WildcardAction",
+      "create_date": "2023-03-10T10:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "S3All",
+          "effect": "Allow",
+          "action": ["s3:*"],
+          "resource": ["arn:aws:s3:::my-bucket/*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "EC2WildcardResource",
+      "policy_id": "ANPAEC2WILDRES12345",
+      "arn": "arn:aws:iam::123456789012:policy/EC2WildcardResource",
+      "create_date": "2023-04-05T11:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "EC2Describe",
+          "effect": "Allow",
+          "action": ["ec2:Describe*"],
+          "resource": ["*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "ReadOnlyS3",
+      "policy_id": "ANPAREADONLYS3123456",
+      "arn": "arn:aws:iam::123456789012:policy/ReadOnlyS3",
+      "create_date": "2023-05-12T12:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "ReadBucket",
+          "effect": "Allow",
+          "action": ["s3:GetObject", "s3:ListBucket"],
+          "resource": ["arn:aws:s3:::my-bucket", "arn:aws:s3:::my-bucket/*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "LambdaInvoke",
+      "policy_id": "ANPALAMBDAINVOKE1234",
+      "arn": "arn:aws:iam::123456789012:policy/LambdaInvoke",
+      "create_date": "2023-06-20T13:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "InvokeFunction",
+          "effect": "Allow",
+          "action": ["lambda:InvokeFunction"],
+          "resource": ["arn:aws:lambda:us-east-1:123456789012:function:my-func"]
+        }
+      ]
+    },
+    {
+      "policy_name": "DynamoDBFull",
+      "policy_id": "ANPADYNAMODBFULL1234",
+      "arn": "arn:aws:iam::123456789012:policy/DynamoDBFull",
+      "create_date": "2023-07-01T14:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "DynamoAll",
+          "effect": "Allow",
+          "action": ["dynamodb:*"],
+          "resource": ["arn:aws:dynamodb:us-east-1:123456789012:table/my-table"]
+        }
+      ]
+    },
+    {
+      "policy_name": "SQSRead",
+      "policy_id": "ANPASQSREAD123456789",
+      "arn": "arn:aws:iam::123456789012:policy/SQSRead",
+      "create_date": "2023-08-15T15:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "ReadQueue",
+          "effect": "Allow",
+          "action": ["sqs:ReceiveMessage", "sqs:DeleteMessage"],
+          "resource": ["arn:aws:sqs:us-east-1:123456789012:my-queue"]
+        }
+      ]
+    },
+    {
+      "policy_name": "SNSPublish",
+      "policy_id": "ANPASNSPUBLISH123456",
+      "arn": "arn:aws:iam::123456789012:policy/SNSPublish",
+      "create_date": "2023-09-10T16:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "PublishTopic",
+          "effect": "Allow",
+          "action": ["sns:Publish"],
+          "resource": ["arn:aws:sns:us-east-1:123456789012:my-topic"]
+        }
+      ]
+    },
+    {
+      "policy_name": "KMSDecrypt",
+      "policy_id": "ANPAKMSDECRYPT123456",
+      "arn": "arn:aws:iam::123456789012:policy/KMSDecrypt",
+      "create_date": "2023-10-05T17:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "DecryptKey",
+          "effect": "Allow",
+          "action": ["kms:Decrypt"],
+          "resource": ["arn:aws:kms:us-east-1:123456789012:key/my-key"]
+        }
+      ]
+    },
+    {
+      "policy_name": "CloudWatchLogs",
+      "policy_id": "ANPACWLOGS1234567890",
+      "arn": "arn:aws:iam::123456789012:policy/CloudWatchLogs",
+      "create_date": "2023-11-20T18:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "LogsWrite",
+          "effect": "Allow",
+          "action": ["logs:CreateLogGroup", "logs:CreateLogStream", "logs:PutLogEvents"],
+          "resource": ["arn:aws:logs:us-east-1:123456789012:log-group:my-group:*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "IAMReadOnly",
+      "policy_id": "ANPAIAMREADONLY12345",
+      "arn": "arn:aws:iam::123456789012:policy/IAMReadOnly",
+      "create_date": "2023-12-01T19:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "IAMRead",
+          "effect": "Allow",
+          "action": ["iam:Get*", "iam:List*"],
+          "resource": ["*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "ECRPowerUser",
+      "policy_id": "ANPAECRPOWERUSER1234",
+      "arn": "arn:aws:iam::123456789012:policy/ECRPowerUser",
+      "create_date": "2024-01-15T20:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "ECRFull",
+          "effect": "Allow",
+          "action": ["ecr:*"],
+          "resource": ["*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "EKSClusterAccess",
+      "policy_id": "ANPAEKSCLUSTER123456",
+      "arn": "arn:aws:iam::123456789012:policy/EKSClusterAccess",
+      "create_date": "2024-02-10T21:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "EKSDescribe",
+          "effect": "Allow",
+          "action": ["eks:DescribeCluster"],
+          "resource": ["arn:aws:eks:us-east-1:123456789012:cluster/my-cluster"]
+        }
+      ]
+    },
+    {
+      "policy_name": "SecretsManagerRead",
+      "policy_id": "ANPASECRETSREAD12345",
+      "arn": "arn:aws:iam::123456789012:policy/SecretsManagerRead",
+      "create_date": "2024-03-05T22:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "GetSecret",
+          "effect": "Allow",
+          "action": ["secretsmanager:GetSecretValue"],
+          "resource": ["arn:aws:secretsmanager:us-east-1:123456789012:secret:my-secret"]
+        }
+      ]
+    },
+    {
+      "policy_name": "Route53Full",
+      "policy_id": "ANPAROUTE53FULL12345",
+      "arn": "arn:aws:iam::123456789012:policy/Route53Full",
+      "create_date": "2024-04-01T23:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "Route53All",
+          "effect": "Allow",
+          "action": ["route53:*"],
+          "resource": ["*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "CloudFrontRead",
+      "policy_id": "ANPACLOUDFRONT123456",
+      "arn": "arn:aws:iam::123456789012:policy/CloudFrontRead",
+      "create_date": "2024-05-10T00:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "CFRead",
+          "effect": "Allow",
+          "action": ["cloudfront:Get*", "cloudfront:List*"],
+          "resource": ["*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "APIGatewayInvoke",
+      "policy_id": "ANPAAPIGATEWAY123456",
+      "arn": "arn:aws:iam::123456789012:policy/APIGatewayInvoke",
+      "create_date": "2024-06-15T01:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "InvokeAPI",
+          "effect": "Allow",
+          "action": ["execute-api:Invoke"],
+          "resource": ["arn:aws:execute-api:us-east-1:123456789012:api-id/*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "StepFunctionsStart",
+      "policy_id": "ANPASTEPFUNCTIONS1234",
+      "arn": "arn:aws:iam::123456789012:policy/StepFunctionsStart",
+      "create_date": "2024-07-20T02:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "StartExecution",
+          "effect": "Allow",
+          "action": ["states:StartExecution"],
+          "resource": ["arn:aws:states:us-east-1:123456789012:stateMachine:my-state-machine"]
+        }
+      ]
+    },
+    {
+      "policy_name": "GlueJobRun",
+      "policy_id": "ANPAGLUEJOBRUN123456",
+      "arn": "arn:aws:iam::123456789012:policy/GlueJobRun",
+      "create_date": "2024-08-25T03:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "RunJob",
+          "effect": "Allow",
+          "action": ["glue:StartJobRun"],
+          "resource": ["arn:aws:glue:us-east-1:123456789012:job/my-job"]
+        }
+      ]
+    },
+    {
+      "policy_name": "AthenaQuery",
+      "policy_id": "ANPAATHENAQUERY12345",
+      "arn": "arn:aws:iam::123456789012:policy/AthenaQuery",
+      "create_date": "2024-09-30T04:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "RunQuery",
+          "effect": "Allow",
+          "action": ["athena:StartQueryExecution"],
+          "resource": ["arn:aws:athena:us-east-1:123456789012:workgroup/primary"]
+        }
+      ]
+    },
+    {
+      "policy_name": "SageMakerTrain",
+      "policy_id": "ANPASAGEMAKERTRAIN12",
+      "arn": "arn:aws:iam::123456789012:policy/SageMakerTrain",
+      "create_date": "2024-10-05T05:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "CreateTrainingJob",
+          "effect": "Allow",
+          "action": ["sagemaker:CreateTrainingJob"],
+          "resource": ["arn:aws:sagemaker:us-east-1:123456789012:training-job/*"]
+        }
+      ]
+    },
+    {
+      "policy_name": "BackupFull",
+      "policy_id": "ANPABACKUPFULL123456",
+      "arn": "arn:aws:iam::123456789012:policy/BackupFull",
+      "create_date": "2024-11-10T06:00:00Z",
+      "is_aws_managed": false,
+      "statements": [
+        {
+          "sid": "BackupAll",
+          "effect": "Allow",
+          "action": ["backup:*"],
+          "resource": ["*"]
+        }
+      ]
+    }
+  ]
+}

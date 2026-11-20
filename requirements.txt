@@ -1,0 +1,7 @@
+typer==0.12.5
+rich==13.9.4
+pydantic==2.9.2
+boto3==1.35.70
+moto[iam]==5.0.21
+pytest==8.3.3
+pytest-cov==5.0.0
